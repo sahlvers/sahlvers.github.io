@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<body> 
+    
+<script type="text/javascript">
+function init(){
+  Tabletop.init({ key: '1J9mR2zozHjm_ygi8LtywdY7e8F0XwoJaydIu70HBkxM',
+                   callback: function(data, tabletop) { 
+                       console.log(data)
+                   },
+                   simpleSheet: true } )
+}
+window.addEventListener('DOMContentLoaded', init)
+</script>
+
+</body>
+</html>
